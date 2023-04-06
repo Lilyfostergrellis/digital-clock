@@ -24,6 +24,7 @@ h2{
 
 .clock div{
     margin: 5px;
+    position: relative;
 }
 
 .clock span{
@@ -46,4 +47,13 @@ h2{
     letter-spacing: 2px;
     background-color:rgba(2, 2, 102, 0.526);
     opacity: 80%;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: green;
 }
